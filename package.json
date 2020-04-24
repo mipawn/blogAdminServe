@@ -1,0 +1,25 @@
+{
+  "name": "blogadminservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mipawn",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "ioredis": "^4.16.3",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-mysql-session": "0.0.2",
+    "koa-redis": "^4.0.1",
+    "koa-router": "^8.0.8",
+    "koa-session-minimal": "^4.0.0",
+    "koa-static": "^5.0.0",
+    "log4js": "^6.2.1",
+    "mysql": "^2.18.1",
+    "superagent": "^5.2.2"
+  }
+}
